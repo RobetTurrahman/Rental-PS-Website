@@ -1,0 +1,608 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232B2B;
+}
+
+/* Link style */
+a {
+    text-decoration: none;
+    color: #232B2B;
+}
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #3A4747;
+}
+
+.navbar img {
+    margin: 15px;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-start .navbar-item {
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-dropdown .navbar-item{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #232B2B;
+} 
+.navbar-link{
+    color: #fff;
+}
+
+.navbar-item .navbar-link:hover {
+    background-color: #323d3d !important; 
+    color: #fff; 
+}
+.navbar-start .navbar-item:hover{
+    background-color: #fff;
+}
+
+
+.buttons a {
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+}
+
+.buttonsis-primary {
+    background-color: #232B2B;
+}
+
+/* font */
+@font-face {
+    font-family: poppins-r;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-b;
+    src: url(Poppins-Bold.ttf);
+}
+
+
+/* Section */
+section {
+    padding: 50px;
+}
+
+section.main {
+    padding: 80px 50px 50px 50px;
+    text-align: center;
+}
+
+
+/* Font */
+h1 {
+    padding: 30px;
+    color: #fff;
+    font-family: 'poppins-b';
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: 'poppins-r';
+    font-size: 24px;
+    padding: 5px;
+}
+
+
+/* Container */
+.container {
+    /* display: flex; */
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+
+/* Pembungkus Management akun sama management ketersediaan */
+.wrapper1 {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Pembungkus homepage */
+.container1 {
+    margin: 0 auto;
+    width: 95%;
+    padding: 50px;
+
+}
+
+
+/* Buat tabelnya */
+.table-container1 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+table.data {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+tr .kolom_nomor{
+    text-align: center;
+    width: 5%;
+}
+.kolom_nomor h2{
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    margin: 5px;
+}
+
+tr .kolom_nama{
+    width: 30%;
+}
+
+.kolom_nama h2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    text-align: left;
+    margin: 5px;
+}
+
+tr .kolom_username{
+    width: 20%;
+}
+
+.kolom_username h2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    text-align: left;
+    margin: 5px;
+}
+
+tr .kolom_sandi{
+    width: 20%;
+}
+.kolom_sandi h2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    text-align: left;
+    margin: 5px;
+}
+
+tr .kolom_aksi{
+    width: 20%;
+}
+
+
+.kolom_aksi button,h2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    text-align: center;
+    margin-top: 7px;
+
+}
+
+.paging{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Management Order */
+.table-container4 h1{
+    font-size: 24px;
+    font-family: 'poppins-b';
+    color: #232B2B;
+}
+
+.button_tambah{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.table-container4 {
+    width: 95%;
+    margin: 0 auto;
+}
+.baris_order td{
+    font-size: 14px;
+    font-family: 'poppins-r';
+    color: #232B2B;
+}
+
+.data_order {
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+.kolom_kode{
+    width: 12%;
+}
+
+.kolom_namaO {
+    width: 18%;
+}
+
+.kolom_ps{
+    width: 10%;
+}
+
+.kolom_estimasi{
+    width: 10%;
+}
+
+.kolom_mulai{
+    width: 12%;
+}
+
+.kolom_akhir {
+    width: 12%;
+}
+
+.kolom_status{
+    width: 10%;
+}
+
+.button_konfir{
+    margin: 7px;
+}
+
+
+/* ini containernya kepake buat history juga */
+.container2{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 30px 50px 30px;
+}
+
+
+/* Tambah Order */
+.wrapper2 {
+    width: 90%;
+    height: 950px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.wrapper2 h2 {
+    padding-top: 50px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+    text-align: right;
+    margin-top: 30px;
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+}
+
+
+.form-booking {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form-booking h3 {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.dropdown {
+    margin-right: 900px ;
+}
+
+.persetujuan {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    /* background-color: #3298DC; */
+}
+
+.ket {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.ket h4 {
+    text-align: left;
+    font-family: 'poppins-b';
+    font-size: 16px;
+    color: #232B2B;
+    margin-top: 5px;
+}
+
+.ket h5 {
+    text-align: justify;
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+
+.harga h4 {
+    text-align: left;
+    font-family: 'poppins-b';
+    font-size: 16px;
+    color: #232B2B;
+    margin-top: 5px;
+}
+
+.harga h5 {
+    text-align: justify;
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+
+.persetujuan h5 {
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+
+.button-isi {
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+/* Edit data PS */
+.wrapper6{
+    width: 60%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #232B2B;
+    margin: 0 auto;
+}
+
+.edit{
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.edit h3 {
+    text-align: left;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+/* Data Penyewa */
+.kode1{
+    width: 15%;
+}
+
+.waktu_Mulai{
+    width: 13%;
+}
+
+.nama_namaps{
+    width: 15%;
+}
+.Status {
+    width: 15%;
+}
+.aksi{
+    width: 15%;
+}
+
+
+/* History */
+.wrapper3 {
+    width: 1000px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.wrapper3 h1 {
+    color: green;
+    /* padding: 30px 0 10px 0; */
+}
+
+.wrapper3 h2 {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    padding: 5px;
+}
+
+.wrapper3 h3{
+    color: #323d3d;
+    font-size: 18px;
+    font-family: 'poppins-r';
+}
+
+.table-container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table.history {
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr .keterangan h2 {
+    width: 80%;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    text-align: left;
+    margin-left: 10px;
+}
+
+tr .titik2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    width: 5%;
+    text-align: center;
+}
+
+tr .status h2 {
+    font-size: 18px;
+    font-family: 'poppins-r';
+    width: 400px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* keterangan status */
+h2 .pending {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: #FFDD57;
+}
+
+h2 .dikonfirmasi {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: green;
+}
+
+h2 .selesai {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: #3298DC;
+}
+h2 .disewakan {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: #F03A5F;
+}
+
+button {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+}
+
+.button-history1{
+    margin-top: 10px;
+}
+
+/* Rincian */
+.wrapper4 {
+    width: 1000px;
+    height: 670px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.wrapper4 h1 {
+    color: green;
+    /* padding: 30px 0 10px 0; */
+}
+.wrapper4 h2 {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    padding: 5px;
+}
+
+.wrapper4 h3 {
+    color: #323d3d;
+    font-size: 18px;
+    font-family: 'poppins-r';
+}
+
+/* Input Data */
+.wrapper5{
+    width: 70%;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.kotak_input{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    /* background-color: #FFDD57; */
+
+}
+
+.jenis_input{
+    width: 80%px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.jenis_input h1{
+    text-align: center;
+    font-family: 'poppins-b';
+    color: #232B2B;
+    font-size: 24px;
+}
+
+.jenis_input h3 {
+    text-align: left;
+    font-family: 'poppins-r';
+    color: #232B2B;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.button-input{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.file-label{
+    font-family: 'poppins-r';
+    color: #232B2B;
+    font-size: 16px;
+}
+
+
+
+/* footer */
+footer {
+    height: 70px;
+    background-color: #3A4747;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-family: 'poppins-r';
+    font-size: 18px;
+}
+

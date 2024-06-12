@@ -1,0 +1,517 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232B2B;
+}
+
+/* Link style */
+a{
+    text-decoration: none;
+    color: #232B2B;
+}
+
+
+/* font */
+@font-face {
+    font-family: poppins-r;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-b;
+    src: url(Poppins-Bold.ttf);
+}
+
+/* nav bar */
+.navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #3A4747;
+}
+
+.start img{
+    margin: 15px 10px 15px 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.end img {
+    margin: 15px 20px 15px 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-start a{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-start a:hover {
+    color: #232B2B;
+}
+
+.buttons a{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+}
+
+.buttonsis-primary{
+    background-color: #232B2B;
+}
+
+
+/* Lending */
+section{
+    padding:50px;
+}
+section.main {
+    padding: 80px 50px 50px 50px;
+    justify-content: center;
+}
+
+section.banner{
+    padding: 40.7px;
+    text-align: center;
+}
+
+
+
+/* Font */
+h1{
+    padding: 30px;
+    color: #fff;
+    font-family: 'poppins-b';
+    text-align: center;
+    font-size: 24px;
+}
+
+h2{
+    font-family: 'poppins-r';
+    font-size: 24px;
+    padding: 5px;
+}
+
+h3{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    padding: 5px;
+    color: #3A4747;
+}
+
+label {
+    font-family: 'poppins-r';
+    font-size: 18px;
+    padding: 5px;
+    color: #3A4747;
+}
+
+/* font buat button yg di booking ps */
+h4{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+    padding: 5px; 
+}
+
+h5{
+    font-family: 'poppins-b';
+    font-size: 24px;
+    padding: 5px;
+    color: #fff;
+}
+
+
+
+
+/* Container */
+.container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.container1 {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 0 50px 0;
+}
+
+
+/* Kotak putih */
+.wrapper1 {
+    width: 700px;
+    height: 383px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #232B2B;
+}
+/* Buat history */
+.wrapper2{
+    width: 1000px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* Buat Rincian */
+.wrapper3{
+    width: 1000px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* Buat Isi data */
+.wrapper5 {
+    width: 80%;
+    height: 750px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+/* grid */
+.grid-container {
+    display: grid;
+    grid: 190px / auto auto auto;
+    grid-gap: 10px;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+.grid-container1 {
+    display: grid;
+    grid: 300px / auto auto auto;
+    grid-gap: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Fasilitas */
+.fasilitas{
+    text-align: center;
+}
+
+.isi p{
+    font-family: 'poppins-r';
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* booking */
+.nama-ps{
+    display: flex;
+    width: 90%;
+    height: auto;
+    /* background-color: #fff; */
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.wrapper4 {
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border: 1px solid #fff;
+    /* background-color: transparent; */
+    padding: 20px;
+    margin: 30px 50px 50px 50px;
+    border-radius: 15px;
+}
+
+
+/* isi data booking */
+.wrapper5 h2 {
+    margin-right: -450px;
+    margin-top: 20px;
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+} 
+
+.wrapper5 h3{
+    text-align: left;
+    margin: 5px;
+}
+
+.form-booking{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.dropdown{
+    margin-right: 700px;
+}
+
+.persetujuan{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    /* background-color: #3298DC; */   
+}
+
+.ket{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.ket h4{
+    text-align: left;
+    font-family: 'poppins-b';
+    font-size: 16px;
+    color: #232B2B;
+    margin-top: 5px;
+}
+
+.ket h5{
+    text-align: justify;
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+.harga h4 {
+    text-align: left;
+    font-family: 'poppins-b';
+    font-size: 16px;
+    color: #232B2B;
+    margin-top: 5px;
+}
+
+.harga h5 {
+    text-align: justify;
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+
+.persetujuan h5{
+    font-family: 'poppins-r';
+    font-size: 16px;
+    color: #3A4747;
+}
+
+.button-isi{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+/* about */
+h2 img{
+    height: 25px;
+    width: 25px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #232B2B;
+}
+
+ul{
+    padding: 80px;
+}
+
+
+/* history */
+.wrapper2 h1 {
+    color: green;
+    padding: 30px 0 10px 0;
+}
+
+.wrapper2 h2 {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    padding: 5px;
+}
+
+.table-container1{
+    width:80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table.history {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    height: 50PX;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr .keterangan h2{
+    font-size: 18px;
+    font-family: 'poppins-r';
+    text-align: left;
+}
+tr .titik2{
+    font-size: 18px;
+    font-family: 'poppins-r';
+    width: 5%;
+    text-align: center;
+}
+
+tr .status h2{
+    font-size: 18px;
+    font-family: 'poppins-r';
+    width: 400px;
+    text-align: left;
+}
+
+
+/* keterangan status */
+h2 .pending{
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: #FFDD57;
+}
+h2 .dikonfirmasi {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: green;
+}
+h2 .selesai {
+    font-size: 18px;
+    font-family: 'poppins-b';
+    color: #3298DC;
+}
+
+button{
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+}
+
+
+/* Rincian */
+.data h1 {
+    color: green;
+    padding: 30px 0 10px 0;
+}
+
+.data h2 {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    padding: 5px;
+}
+
+/* Masuk */
+.container7 {
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+}
+.wrapper7 {
+    width: 800px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #232B2B;
+    margin: 0 auto;
+}
+
+.form-masuk{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form-masuk h1{
+    font-size: 24;
+    font-family: 'poppins-b';
+    text-align: center;
+    color: #232B2B;
+}
+.form-masuk h3 {
+    font-size: 24;
+    font-family: 'poppins-r';
+    text-align: left;
+    color: #232B2B;
+}
+
+.form-masuk h4{
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    text-align: right;
+    color: #232B2B;
+}
+
+.form-masuk h5 {
+    color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    text-align: center;
+    color: #232B2B;
+    margin-top: 5px;
+}
+
+.button-masuk{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.button-masuk button{
+    background-color: #232B2B;
+    font-size: 18px;
+    font-family: 'poppins-r';
+    color: #fff;
+}
+
+/* Daftar */
+.container3 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.wrapper6{
+    width: 800px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #232B2B;
+}
+
+/* profil */
+.wrapper6 img{
+    margin-top: 30px;
+}
+
+
+/* footer */
+footer{
+    height: 70px;
+    background-color: #3A4747;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-family: 'poppins-r';
+    font-size: 18px;
+}
